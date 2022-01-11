@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href=".\destination.css">
+	<title>Destinations</title>
+	<style type="text/css">
+		.container .box .name-text input{
+			position: relative;
+			display: none;
+			background: transparent;
+			border: 1px solid #fff;
+			top: -20px;
+			color: #fff;
+			text-decoration: none;
+			transition: 0.6s ease;
+			text-align: center;
+		}
+		.btn{
+			padding: 5px 40px;
+		}
+		.btn1{
+			margin: 0px -20px;
+			padding: 5px 40px;
+		}
+		.btn2{
+			padding: 5px 60px;
+		}
+		.btn3{
+			padding: 5px 37px;
+			margin: 0px -2px;
+		}
+		.btn4{
+			padding: 5px 50px;
+		}
+		.btn5{
+			padding: 5px 25px;
+		}
+		.container .box:hover .name-text input{
+			display: block;
+			top: -20px;
+		}
+		.container .box .name-text input:hover{
+			background-color: #fff;
+		    color: #000;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="heading">Popular Destinations</h1>
+	<div class="main">
+        <ul>
+          <ul class="list">
+            <li class="logo"><a href="index.html"><img src="earth-globe.png" alt="Logo" style="width:36px;height:36px"></a></li>
+            <div class="search">
+            <div class="search">
+	            <form method="POST" action="info.php">
+	              <input type="text" name="search_p" placeholder="Search.." size="50">
+	          
+	              <input type="image" name="submit_p" src="search_icon.png" alt="Search image" style="width:22;height:22; margin-left: 35px;">
+	            </form>
+          	</div>
+          </ul>
+          <ul class="list2">
+            <li><a href="index.html">Home</a></li>
+            <li class="active-menu"><a id="long" href="destination.html">Destination</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </ul>
+    </div>
+	<h1>flexbox container: display:flex and display:inline-flex</h1>
+	<div class="container">
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Pokhara1.JPEG" alt="Pokhara Image" style="width: auto;height: 270px;">
+			</div>
+			<div class="name-text name-pading1 top1">
+				<h1>Pokhara</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Pokhara" class="btn1" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Kathmandu1.JPEG" alt="Kathmandu Image" style="width: auto;height: 270px;">
+			</div>
+			<div class="name-text name-pading2 top1">
+				<h1>Kathmandu</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Kathmandu" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Lumbini1.JPEG" alt="Lumbini Image">
+			</div>
+			<div class="name-text name-pading3 top1">
+				<h1>Lumbini</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Lumbini" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Chitwan1.jpg" alt="Chitwan Image">
+			</div>
+			<div class="name-text name-pading4 top1">
+				<h1>Chitwan</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Chitwan" class="btn" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Mt.Everest1.jpg" alt="Mt.Everest Image">
+			</div>
+			<div class="name-text name-pading5 top2">
+				<h1>Solukhumbu</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Solukhumbu" class="btn5" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Bardiya NP1.jpg" alt="Bardiya Image">
+			</div>
+			<div class="name-text name-pading6 top2">
+				<h1>Bardiya</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Bardiya" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Kavre1.jpg" alt="Kavre Image">
+			</div>
+			<div class="name-text name-pading7 top2">
+				<h1>Kavre</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Kavre" class="btn3" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Mustang1.jpg" alt="Mustang Image">
+			</div>
+			<div class="name-text name-pading8 top2">
+				<h1>Mustang</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Mustang" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//ABC1.jpg" alt="ABC Image">
+			</div>
+			<div class="name-text name-pading9 top3">
+				<h1>ABC</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="ABC" class="btn3" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Markhu1.jpg" alt="Markhu Image">
+			</div>
+			<div class="name-text name-pading10 top3">
+				<h1>Markhu</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Markhu" class="btn4" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Mardi1.jpg" alt="Mardi Image">
+			</div>
+			<div class="name-text name-pading11 top3">
+				<h1>Mardi</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Mardi" class="btn4" value="Visit">
+				</form>
+			</div>
+		</div>
+		<div class="box">
+			<div class="imgBox">
+				<img src="images//destination//Gosaikunda1.JPEG" alt="Gosaikunda Image">
+			</div>
+			<div class="name-text name-pading12 top3">
+				<h1>Gosaikunda</h1>
+				<form method="POST" action="info.php">
+					<input type="submit" name="Gosaikunda" class="btn2" value="Visit">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
