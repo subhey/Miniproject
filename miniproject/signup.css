@@ -4,11 +4,10 @@ body
 	margin:0;
 	padding:0;
 	font-family:sans-serif;
-	background-image:url(tower.jpg) no-repeat;
-	height: 50vh;
-	background-size: 50% 25%;	
-  background-color: lightpink;
-}
+	background:url("flag.jpg") no-repeat;
+	height: 90.10vh;
+	background-size: 100% 100%;	
+  }
 .login-box
 
 {
